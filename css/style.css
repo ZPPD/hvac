@@ -69,7 +69,22 @@ body {
     border-radius: 100px;
   }
 
-  /* Table page commercial */
+  .bg-residential{
+    background-image: url('/img/ductwork.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bg-commercial{
+    background-image: url('/img/valve.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+  }
+
+  /* Table */
   .table{
     margin-bottom: 100px;
   }
@@ -98,7 +113,10 @@ body {
   font-size: 11px;
   list-style: none;
 }
-.footer a{
+.footer p{
+  font-size: 12px;
+}
+.footer a {
   color: inherit;
 }
 
