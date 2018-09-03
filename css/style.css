@@ -62,11 +62,9 @@ body {
     letter-spacing: -.05rem;
   }
 
-  .icon{
-    border-radius: 50px;
-  }
   .icon:hover{
     border-radius: 100px;
+    box-shadow: 5px 5px 5px #aaa;
   }
 
   .bg-residential{
@@ -143,6 +141,7 @@ body {
       transform: rotate(-10deg);
     }
     .footer::before{
+      margin-top: 20px;
       content: ' ' !important;
       width: 100% !important;
       height: 50px !important;
