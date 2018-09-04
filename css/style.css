@@ -62,6 +62,12 @@ body {
     letter-spacing: -.05rem;
   }
 
+  .ac{
+    color: #00abff;
+  }
+  .heat{
+    color: #ff5400;
+  }
   .icon:hover{
     border-radius: 100px;
     box-shadow: 5px 5px 5px #aaa;
@@ -94,6 +100,46 @@ body {
   .table, tr{
     font-size: 1rem;
   }
+
+  /* About */
+.story p{
+    font-size: 1.3rem !important;
+  }
+  .team-item{
+  position: relative;
+  }
+  .team-item:hover .team-wrap{
+  opacity: 1;
+  }
+  .team-wrap{
+  background: rgba(34, 34, 34, 0.6);
+  position: absolute;
+  border-radius: 0.2rem;
+  top: 0;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  opacity:0;
+  }
+  .team-item, .team-wrap, .team-content{
+  transition: .4s ease-in-out;
+  }
+  .team-item img{
+  max-width: 100%;
+  }
+  .team-item img:hover{
+  opacity: 0.3;
+  }
+
+  /* Contact */
+  .contact-line{
+    border-top: 3px solid rgba(0,0,0, 0.1);
+  }
+  .map{
+    height: 500px;
+    width: 100%;
+  }
+
   /* footer */
   .footer{
     position: relative;
