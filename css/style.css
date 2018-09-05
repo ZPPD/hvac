@@ -73,19 +73,19 @@ body {
     box-shadow: 5px 5px 5px #aaa;
   }
 
-  .bg-residential{
-    background-image: url('/img/ductwork.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
   .bg-commercial{
-    background-image: url('/img/valve.jpg');
-    background-position: center;
+    background-image: url('/img/ductwork.jpg');
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    
-    
+    height: 450px;
+  }
+  .bg-residential{
+    background: url('/img/cosy2.jpg');
+      background-position: top; 
+     background-repeat: no-repeat;  
+    background-size: cover;  
+    height: 450px;
   }
 
   /* Table */
@@ -100,7 +100,10 @@ body {
   .table, tr{
     font-size: 1rem;
   }
-
+  .product-btn{
+    margin-left: 35%;
+    
+  }
   /* About */
 .story p{
     font-size: 1.3rem !important;
@@ -129,6 +132,9 @@ body {
   }
   .team-item img:hover{
   opacity: 0.3;
+  }
+  .testemonials p{
+    font-size: 1.1rem !important;
   }
 
   /* Contact */
