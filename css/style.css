@@ -62,15 +62,21 @@ body {
     letter-spacing: -.05rem;
   }
 
-  .ac{
+ .ac{
     color: #00abff;
   }
   .heat{
     color: #ff5400;
   }
+  .wrench{
+    color: #5a848d;
+  }
   .icon:hover{
     border-radius: 100px;
     box-shadow: 5px 5px 5px #aaa;
+  }
+  .top-icon:hover{
+    filter: brightness(80%);
   }
 
   .bg-commercial{
