@@ -80,14 +80,14 @@ body {
   }
 
   .bg-commercial{
-    background-image: url('/img/ductwork.jpg');
+    background-image: url('../img/ductwork.jpg');
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     height: 450px;
   }
   .bg-residential{
-    background: url('/img/cosy2.jpg');
+    background: url('../img/cosy2.jpg');
       background-position: top; 
      background-repeat: no-repeat;  
     background-size: cover;  
@@ -110,6 +110,9 @@ body {
     margin-left: 35%;
     
   }
+  /* .repair-img{
+    height: 360px;
+  } */
   /* About */
 .story p{
     font-size: 1.3rem !important;
