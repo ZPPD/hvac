@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "RJD Heating and Cooling Website",
   "main": "index.js",
+  "homepage": "https://ZPPD.github.io/hvac",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
   },
   "author": "ZPPD",
   "license": "ISC",
